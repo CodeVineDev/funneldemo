@@ -5,3 +5,26 @@
 @import 'preline/variants.css';
 /* Plugins */
 @plugin "@tailwindcss/forms";
+
+ html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+      letter-spacing: -0.02em;
+    }
+
+    .container {
+      max-width: 1200px;
+    }

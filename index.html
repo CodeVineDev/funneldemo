@@ -8,30 +8,7 @@
   <link rel="stylesheet" href="src/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-
-    section {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-
-    h1,
-    h2,
-    h3 {
-      letter-spacing: -0.02em;
-    }
-
-    .container {
-      max-width: 1200px;
-    }
-  </style>
+  <script src="JS/script.js" defer></script>
 </head>
 
 <body class="bg-white text-gray-900">
@@ -41,8 +18,8 @@
       <div class="flex items-center gap-3">
         <span class="text-sm sm:text-lg font-bold">FBA Launch Agency</span>
       </div>
-      <a href="#call"
-        class="bg-amber-500 hover:bg-amber-600 text-white rounded-xl sm:px-6 px-3 py-3 text-sm font-medium shadow transition">Start
+      <a href="Pages/thankyou.html"
+        class="bg-amber-600 hover:bg-amber-700 text-white rounded-xl sm:px-6 px-3 py-3 text-sm font-medium shadow transition">Start
         My 90-Day Plan</a>
     </div>
   </header>
@@ -53,7 +30,7 @@
       <div class="w-full h-1"></div>
       <h1 data-aos="fade-up" class="text-4xl md:text-[55px] font-extrabold leading-tight max-w-4xl mx-auto">
         Struggling to Pick a Winning Product?
-        Launch a Profitable <span class="text-amber-500">Amazon FBA Business in 90 Days</span>
+        Launch a Profitable <span class="text-amber-600">Amazon FBA Business in 90 Days</span>
       </h1>
       <p data-aos="fade-up" data-aos-delay="150" class="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
         Our proven 3-step system gives you the <span class="font-medium text-gray-800">exact products</span>, vetted
@@ -62,8 +39,8 @@
         guesswork.
       </p>
       <div class="mt-8 flex gap-4 flex-wrap justify-center">
-        <a href="#call"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-4 sm:w-max w-full text-lg shadow transition">Start
+        <a href="Pages/thankyou.html"
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-4 sm:w-max w-full text-lg shadow transition">Start
           My 90-Day FBA Plan</a>
         <a href="#guide"
           class="border border-gray-300 hover:border-gray-400 rounded-2xl px-8 py-4 sm:w-max w-full text-lg transition">Send
@@ -126,7 +103,7 @@
       </div>
       <div class="mt-12">
         <a href="#guide"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Get My Free
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Get My Free
           Product Guide</a>
       </div>
     </div>
@@ -155,7 +132,7 @@
         <input type="email" placeholder="Your Email"
           class="rounded-xl px-4 py-3 border border-gray-300 w-full md:w-auto" required>
         <button type="submit"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-xl px-8 py-3 shadow transition">Send Me the
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-xl px-8 py-3 shadow transition">Send Me the
           Guide</button>
       </form>
       <div
@@ -172,8 +149,8 @@
           Taken</span></h2>
       <p class="mt-4 text-lg text-gray-600">We keep it small on purpose for direct access and fast feedback.</p>
       <div class="mt-8">
-        <a href="#call"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Book Your
+        <a href="Pages/thankyou.html"
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Book Your
           Call Now</a>
       </div>
     </div>
@@ -208,7 +185,7 @@
       </div>
       <div class="mt-12 text-center">
         <a href="#guide"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Get the
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Get the
           Free Guide</a>
       </div>
     </div>
@@ -221,7 +198,7 @@
       <p class="mt-3 text-gray-600">Grab the free guide now and see the exact products you can launch this month.</p>
       <div class="mt-6">
         <a href="#guide"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Send Me the
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-4 text-lg shadow transition">Send Me the
           Free Guide</a>
       </div>
     </div>
@@ -248,89 +225,13 @@
         <input type="text" placeholder="Your Name" class="w-full border p-2 mb-3 rounded">
         <input type="email" placeholder="Your Email" class="w-full border p-2 mb-3 rounded">
         <button type="submit"
-          class="bg-amber-500 hover:bg-amber-600 text-white rounded-2xl px-8 py-3 w-full text-lg shadow transition">Yes,
+          class="bg-amber-600 hover:bg-amber-700 text-white rounded-2xl px-8 py-3 w-full text-lg shadow transition">Yes,
           Send me the Guide</button>
       </form>
     </div>
   </div>
-
-
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const popupOverlay = document.getElementById("popup-overlay");
-      const closeBtn = document.getElementById("popup-close");
-      const heroSection = document.querySelector("section"); // adjust selector if needed
-
-      let popupShown = false;
-
-      // Function to show popup
-      function showPopup() {
-        if (!popupShown) {
-          popupOverlay.classList.remove("pointer-events-none");
-          popupOverlay.classList.add("opacity-100");
-          popupShown = true;
-        }
-      }
-
-      // Function to hide popup
-      function hidePopup() {
-        popupOverlay.classList.add("pointer-events-none");
-        popupOverlay.classList.remove("opacity-100");
-      }
-
-      // Show popup after scrolling past hero
-      window.addEventListener("scroll", () => {
-        const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
-        if (window.scrollY > heroBottom && !popupShown) {
-          showPopup();
-        }
-      });
-
-      // OR show popup after 10 seconds (backup trigger)
-      setTimeout(() => {
-        if (!popupShown) {
-          showPopup();
-        }
-      }, 10000);
-
-      // Close button action
-      closeBtn.addEventListener("click", hidePopup);
-    });
-
-  </script>
-
-
   <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 800, once: true });
-    document.getElementById('year').textContent = new Date().getFullYear();
-    (function countdown() {
-      const LS_KEY = 'fbaCountdownDeadline';
-      const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
-      const now = Date.now();
-      let deadline = Number(localStorage.getItem(LS_KEY));
-      if (!deadline || deadline < now) {
-        deadline = now + sevenDaysMs;
-        localStorage.setItem(LS_KEY, String(deadline));
-      }
-      const elD = document.getElementById('cd-days');
-      const elH = document.getElementById('cd-hours');
-      const elM = document.getElementById('cd-mins');
-      const elS = document.getElementById('cd-secs');
-      function tick() {
-        const diff = deadline - Date.now();
-        if (diff <= 0) { elD.textContent = '0'; elH.textContent = '00'; elM.textContent = '00'; elS.textContent = '00'; return; }
-        const d = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
-        const m = Math.floor((diff / (1000 * 60)) % 60);
-        const s = Math.floor((diff / 1000) % 60);
-        elD.textContent = d; elH.textContent = String(h).padStart(2, '0'); elM.textContent = String(m).padStart(2, '0'); elS.textContent = String(s).padStart(2, '0');
-        requestAnimationFrame(() => setTimeout(tick, 1000));
-      }
-      tick();
-    })();
-  </script>
 </body>
 
 </html>
