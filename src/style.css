@@ -291,9 +291,6 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-24 {
-    margin-top: calc(var(--spacing) * 24);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -891,15 +888,17 @@
     }
   }
 }
+:root {
+  color-scheme: light;
+}
+body {
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Inter', sans-serif;
-}
-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  font-family: "Inter", sans-serif;
 }
 h1, h2, h3 {
   letter-spacing: -0.02em;
