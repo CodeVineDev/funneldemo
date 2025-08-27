@@ -12,7 +12,7 @@ document.getElementById("leadForm").addEventListener("submit", async function(ev
   };
 
   try {
-    const response = await fetch("https://hook.eu2.make.com/ck4fajzof7i3fefdudyirexwn5g5z6el", {
+    const response = await fetch("https://hook.eu2.make.com/t1nbgzk0rl383bjzeg25a83f75t1qss0", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData)
